@@ -25,4 +25,4 @@ jobs:
         username: ${{ secrets.ftp_username_dev }}
         password: ${{ secrets.ftp_password_dev }}
         server-dir: ${{ secrets.ftp_server_dir_dev }}default-frontend-svelte/ #change here to the project root folder in the server
-        local-dir: ./build
+        local-dir: ./build/
