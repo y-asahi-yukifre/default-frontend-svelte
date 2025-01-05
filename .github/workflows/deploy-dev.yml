@@ -11,6 +11,9 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v4
+
+    - name: npm install
+      run: npm install
       
     - name: npm run build
       run: npm run build
